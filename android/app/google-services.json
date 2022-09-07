@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912846227490",
+    "project_id": "srcs-gedo",
+    "storage_bucket": "srcs-gedo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912846227490:android:2f50ecda3486558f4a627b",
+        "android_client_info": {
+          "package_name": "com.dorx.srcs_gedo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912846227490-9qrnatv4gaibtu623s3gdn0q59njq3pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe-BpzDIadU4yffCX_LP5J9xt5PRTihog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912846227490-9qrnatv4gaibtu623s3gdn0q59njq3pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
