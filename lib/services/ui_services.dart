@@ -422,22 +422,26 @@ class _LoginSheetState extends State<LoginSheet> {
                         onPressed: () async {
                           if (processing) {
                             CommunicationServices().showSnackBar(
-                                "Just a sec. Please wait.. (You can tap here to cancel and try again)",
-                                context,
-                                behavior: SnackBarBehavior.floating,
-                                buttonText: "Cancel", whatToDo: () {
-                              if (mounted) {
-                                setState(() {
-                                  processing = false;
-                                });
-                              }
-                            });
+                              "Just a sec. Please wait.. (You can tap here to cancel and try again)",
+                              context,
+                              behavior: SnackBarBehavior.floating,
+                              buttonText: "Cancel",
+                              whatToDo: () {
+                                if (mounted) {
+                                  setState(
+                                    () {
+                                      processing = false;
+                                    },
+                                  );
+                                }
+                              },
+                            );
                           } else {
                             doIt();
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: primaryColor,
+                          backgroundColor: primaryColor,
                           shape: RoundedRectangleBorder(
                             borderRadius: standardBorderRadius,
                           ),

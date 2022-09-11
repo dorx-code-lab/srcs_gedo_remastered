@@ -132,7 +132,7 @@ class FirstView extends StatelessWidget {
                               20,
                             ),
                           ),
-                          primary: primaryColor,
+                          backgroundColor: primaryColor,
                         ),
                         onPressed: () {
                           UIServices().showLoginSheet(

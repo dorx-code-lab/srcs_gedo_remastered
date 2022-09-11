@@ -151,7 +151,6 @@ class _DetailedProjectViewState extends State<DetailedProjectView>
 
 class ProjectDetailsView extends StatefulWidget {
   final String projectID;
-  //TODO: Change add to funds and reducing to returns
   ProjectDetailsView({
     Key key,
     @required this.projectID,
