@@ -441,7 +441,7 @@ class _LoginSheetState extends State<LoginSheet> {
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: primaryColor,
+                          primary: primaryColor,
                           shape: RoundedRectangleBorder(
                             borderRadius: standardBorderRadius,
                           ),
